@@ -8,11 +8,11 @@ export default function Index() {
   return (
 
         <SafeAreaView>
-          <StatusBar translucent={true}/>
+          <StatusBar  style='light'/>
           <View className=''>
           <Text className='text-black'>saasf</Text>
         </View>
-        <Redirect href={"/(root)/(tabs)"} />
+        <Redirect href={"/(auth)"} />
         </SafeAreaView>
   );
 }
