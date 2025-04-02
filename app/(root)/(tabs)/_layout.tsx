@@ -13,17 +13,12 @@ const _layout = () => {
    screenOptions={{
     headerShown:false,
     tabBarActiveTintColor:"#FF0052",
-    tabBarStyle:{
-    // position:"absolute",
-    bottom:20,
-    // left: 20,
-    // right: 20,
-    alignItems:"center",
-    justifyContent:"center",
+    tabBarStyle:{   
+    bottom:22,
     backgroundColor: "white",
     borderRadius: 50,
     height: 55,
-    elevation: 5,
+    
     }
    }}>
     <Tabs.Screen name="index" 
@@ -38,10 +33,13 @@ const _layout = () => {
                 </View>
             )
         },
+        
         tabBarItemStyle:{            
-            justifyContent:"center",
             alignItems:"center",
-            elevation: 5,
+            height:50,
+            // backgroundColor:"yellow", 
+            flex:1,
+           
         }
      }} />
 
