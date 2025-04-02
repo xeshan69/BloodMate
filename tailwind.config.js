@@ -9,6 +9,13 @@ module.exports = {
         primary:'#FF0052',
         secondary:"#333333",
         gray:"#CCCCCC"
+      },
+      fontFamily:{
+        UbuntuRegular:['Ubuntu-Regular', 'sans-serif'],
+        UbuntuBold:['Ubuntu-Bold', 'sans-serif'],
+        UbuntuLight:['Ubuntu-Light', 'sans-serif'],
+        UbuntuMedium:['Ubuntu-Medium', 'sans-serif'],
+        UbuntuItalic:['Ubuntu-Italic', 'sans-serif'],
       }
     },
   },
