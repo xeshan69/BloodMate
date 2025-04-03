@@ -1,4 +1,4 @@
- import { TouchableOpacityProps } from 'react-native';
+ import { TouchableOpacityProps, ViewProps } from 'react-native';
  
  
  
@@ -7,5 +7,12 @@
     IconLeft?: React.ComponentType<any>;
     IconRight?: React.ComponentType<any>;
     className?: string;
+    TextStyle?: string;
+ }
+
+ declare interface InfoCardsProps extends ViewProps {
+    title: string;
+    className?: string;
+    cardImage?: React.ComponentType<any>;
     TextStyle?: string;
  }
