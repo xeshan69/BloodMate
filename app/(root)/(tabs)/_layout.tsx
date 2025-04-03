@@ -9,7 +9,7 @@ const _layout = () => {
 
   return (
    <Tabs 
-   initialRouteName='index'
+   initialRouteName='home'
    screenOptions={{
     headerShown:false,
     tabBarActiveTintColor:"#FF0052",
@@ -21,7 +21,7 @@ const _layout = () => {
     
     }
    }}>
-    <Tabs.Screen name="index" 
+    <Tabs.Screen name="home" 
     options={{ 
         headerShown: false,
         animation:"shift",
@@ -29,7 +29,7 @@ const _layout = () => {
         tabBarIcon:({focused})=>{
             return (
                 <View className={`flex flex-row items-center justify-center `}>
-                    <FontAwesome6 name="house" size={26} color={`${focused? "#FF0052":"#CCCCCC"}`} />
+                    <FontAwesome6 name="house" size={26} color={`${focused? "#FF0052":"#333333"}`} />
                 </View>
             )
         },
@@ -50,7 +50,7 @@ const _layout = () => {
         tabBarIcon:({focused})=> {
             return(
                 <View
-                className='bg-primary rounded-full h-24 w-24 items-center justify-center '>
+                className={`${focused?'bg-primary':'bg-secondary'} rounded-full h-24 w-24 items-center justify-center`}>
                     <Ionicons name="water-outline" size={30} color="white" />
                 </View>
             )
@@ -71,7 +71,7 @@ const _layout = () => {
         tabBarIcon:({focused})=>{
             return (
                 <View className={`flex flex-row items-center justify-center `}>
-                    <Ionicons name="person" size={26} color={`${focused? "#FF0052":"#CCCCCC"}`} />
+                    <Ionicons name="person" size={26} color={`${focused? "#FF0052":"#333333"}`} />
                 </View>
             )
         }
