@@ -16,7 +16,8 @@ const index = () => {
             resizeMode='cover'
             imageStyle={{ borderBottomRightRadius: 140 }}
             style={{borderBottomRightRadius:140}} >
-            <Image className='flex-1 'style={{ borderBottomRightRadius: 140 }} source={require("../../assets/images/getStartFemale.png")} />   
+            <Image className='flex-1 'style={{ borderBottomRightRadius: 140 }} 
+            source={require("../../assets/images/getStartFemale.png")} />   
             </ImageBackground>              
         </View>
         <View className='flex-1 justify-evenly w-full '>
