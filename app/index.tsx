@@ -7,12 +7,8 @@ import { StatusBar } from 'expo-status-bar';
 export default function Index() {
   return (
 
-        <SafeAreaView>
-          <StatusBar  style='light'/>
-          <View className=''>
-          <Text className='text-black'>saasf</Text>
-        </View>
-        <Redirect href={"/(auth)"} />
-        </SafeAreaView>
-  );
+
+
+        <Redirect href={"/(root)/(tabs)/home"} />
+  )
 }
