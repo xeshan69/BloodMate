@@ -10,9 +10,3 @@
     TextStyle?: string;
  }
 
- declare interface InfoCardsProps extends ViewProps {
-    title: string;
-    className?: string;
-    cardImage?: React.ComponentType<any>;
-    TextStyle?: string;
- }
