@@ -13,7 +13,7 @@ const InfoCard2 = ()=> {
         <Text className='font-UbuntuBold text-sm text-gray '>READ STORY</Text>
       </View>
       <View className=''>
-            <Image source={require(`../assets/images/cardImage2.png`)} className=' ' />
+            <Image source={require(`../assets/images/cardImage2.png`)} className='rounded-br-3xl' />
         </View>
     </View>
         
